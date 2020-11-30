@@ -1,0 +1,594 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(236, 240, 245, 1.0);
+}
+
+/* ========= Navbar CSS ========= */
+
+header{
+    width: 100%;
+    background: rgba(16, 181, 202, 1.0);
+    padding: 15px 0 10px 0;
+}
+
+.nav-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-item{
+    margin-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link{
+    font-size: 15pt !important;
+    color: whitesmoke !important;
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-size: 15pt !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: whitesmoke !important;
+    font-weight: 700;
+}
+
+.dropdown-menu{
+    border-radius: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.dropdown-item{
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-weight: 400 !important;
+    padding: 10px 30px 15px 30px !important;
+    font-size: 13pt !important;
+    text-align: left !important;
+}
+
+.dropdown-item:hover{
+    background: rgba(0, 188, 212, 1.0);
+    color: whitesmoke !important;
+}
+
+.responsive_nav_menu{
+    background: whitesmoke !important;
+    font-size: 16pt !important;
+    font-weight: 700;
+    padding: 10px 15px 10px 15px;
+    color: rgba(0, 188, 212, 1.0);
+    margin-bottom: 18px;
+}
+
+.btn{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15) !important;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn:hover{
+    border-bottom: 2px solid transparent !important;
+}
+
+
+/* =========  Navbar CSS ENDS ========= */
+
+
+/* =========  Dashboard CSS starts ========= */
+
+.sec1{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.dboard-con{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.dashboard-card{
+    width: 30.33% !important;
+    float: left;
+    overflow: hidden;
+    margin-left: 1.5% !important;
+    margin-right: 1.5% !important;
+    margin-bottom: 3%;
+    border-radius: 8px !important;
+}
+
+.card-header, .card-footer{
+    border-radius: 0 !important;
+}
+
+.dashboard-card .card-header{
+    border: none !important;
+    padding-bottom: 0 !important;
+}
+
+.dashboard-card .card-header{
+    background: rgba(16, 181, 202, 1.0) !important;
+}
+
+.dashboard-card .card-body{
+    background: rgba(16, 181, 202, 1.0) !important;
+}
+
+.dashboard-card .card-header p{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 700;
+    font-size: 11pt;
+    color: white;
+}
+
+.dashboard-card .card-body{
+    padding: 8px 2px 16px 36px !important;
+}
+
+
+.total-text, .dashboard-icon{
+    width: 50% !important;
+    float: left;
+    overflow: hidden;
+    color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dashboard-icon{
+    font-size: 24pt;
+    text-align: center;
+}
+
+.total-text{
+    font-size: 20pt;
+}
+
+.dashboard-card .card-footer{
+    background: rgb(12, 147, 165) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dashboard-card .card-footer a{
+    display: block;
+    margin: 0 !important;
+    font-weight: 700;
+    font-size: 9pt;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 2px; 
+}
+
+.dashboard-card .card-footer a:hover{
+    background: rgb(13, 126, 141) !important;
+}
+
+
+/* ========= Dashboard CSS ends ========= */
+
+
+/* ========= Table CSS starts ========= */
+
+.sec2{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.table-con{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.table-card{
+    padding: 35px;
+    border-top: 3px solid rgba(16, 181, 202, 0.8) !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background: white;
+    overflow: hidden;
+}
+
+.table-card-title{
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    margin: 1px 0px 40px 0px;
+    color: rgb(8, 114, 128);
+    font-weight: 700;
+}
+
+.table{
+    background: white !important;
+}
+
+
+.table-type-1 tr:nth-child(odd){
+    background: rgb(221, 251, 255, 0.2) !important;
+}
+
+.table-type-1 td{
+    font-size: 11pt !important;
+    color: rgb(5, 37, 42);
+    width: 50% !important;
+}
+
+.table-type-1 td:nth-child(even){
+    text-align: right;
+}
+
+.table-type-1 th:nth-child(even){
+    text-align: right !important;
+}
+
+.table-type-1 th{
+    background: rgba(167, 233, 241, 0.6) !important;
+    border: 1px solid rgba(16, 181, 202, 0.8) !important;
+    width: 50% !important;
+}
+
+.table-type-1 td a{
+    text-decoration: none !important;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.ov-handler{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.table-type-2 th{
+    background: rgba(167, 233, 241, 0.6) !important;
+    border: 1px solid rgba(16, 181, 202, 0.8) !important;
+}
+
+.table-type-2 td, th{
+    font-size: 11pt !important;
+    color: rgb(5, 37, 42) !important;
+}
+
+.table-type-2 a{
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+th:hover{
+    cursor: pointer;
+}
+
+.table-type-2 tr:nth-child(even){
+    background: rgb(221, 251, 255, 0.2) !important;
+}
+
+.search-div{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin: 1px 0px 40px 0px;
+}
+
+.search-div .input-group{
+    padding: 4px;
+}
+
+.form-control{
+    margin: 4px 0;
+}
+
+.input-group .form-control{
+    margin: 0 !important;
+}
+
+.form-control:focus {
+    border-color: rgba(0, 188, 212, 0.8);
+    box-shadow: 0 0 2px 3px rgba(0, 188, 212, 0.2);
+    outline: none !important;
+}
+
+.pagination-div{
+    width: 100%;
+    margin: 25px 0 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.page-link{
+    border: 2px solid rgba(0, 188, 212, 0.3);
+    color: rgb(41, 174, 192) !important;
+}
+
+.page-link:hover{
+    border: 2px solid rgba(0, 188, 212, 1.0);
+    background: rgba(0, 188, 212, 0.1);
+}
+
+.page-link:focus{
+    border: 2px solid rgba(0, 188, 212, 1.0);
+    box-shadow: 0 0 4px 1px rgba(0, 188, 212, 0.1);
+    outline: none !important;
+}
+
+.table-card .card{
+    width: 100% !important;
+    border-radius: 0 !important;
+    float: left;
+    overflow: hidden;
+}
+
+.table-card .card-header{
+    background: rgb(221, 251, 255, 0.2) !important;
+    padding: 30px 5px !important;
+    margin: 0;
+}
+
+.profile-icon img{
+    position: relative;
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 6px solid rgba(16, 181, 202, 0.4);
+}
+
+.p-edit-btn{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+
+label{
+    color: rgb(12, 83, 92);
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+.form-card{
+    background: rgba(198, 235, 240, 0.1) !important;
+}
+
+.form-card .card-body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-card span{
+    color: salmon !important;
+}
+
+.form-card .btn{
+    float:right !important;
+    font-size: 11pt !important;
+    margin-left: 15px !important;
+    margin-bottom: 5px;
+}
+
+.form-btn-set{
+    overflow: hidden;
+    margin: 45px 0;
+    padding: 4px;
+}
+
+.emptyAlert{
+    width: 99% !important;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0 !important;
+    animation-duration: 0.7s;
+}
+
+.emptyAlert p{
+    text-align: center;
+    padding: 4px;
+    font-size: 11pt  !important;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+@media all and (max-width: 1600px){
+
+    .nav-wrapper{
+        width: 90%;
+    }
+
+    .nav-link{
+        font-size: 14pt !important;
+    }
+
+    .dropdown-menu .dropdown-item{
+        font-size: 12pt !important;
+    }
+
+}
+
+@media all and (max-width: 1350px){
+    .dboard-con{
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 1300px){
+    .table-con{
+        width: 96%;
+    }
+}
+
+@media all and (max-width: 1200px){
+
+    .nav-wrapper{
+        width: 96%;
+    }
+
+    .nav-item{
+        margin-right: 50px;
+        padding-right: 2px;
+    }
+
+    .nav-link, .navbar-brand{
+        font-size: 13pt !important;
+    }
+
+    .dropdown-menu .dropdown-item{
+        font-size: 11.4pt !important;
+    }
+
+    .sec1{
+        margin-top: 40px;
+    }
+    .dboard-con{
+        width: 70%;
+    }
+    .dashboard-card{
+        width: 45% !important;
+        margin-left: 2.5% !important;
+        margin-right: 2.5% !important;
+        margin-bottom: 5%;
+    }
+    .table-type-2 a{
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 6px !important;
+    }
+
+
+}
+
+@media all and (max-width: 1000px){
+
+    .nav-item{
+        margin-right: 40px;
+    }
+
+    .nav-link, .navbar-brand{
+        font-size: 12pt !important;
+    }
+
+    .ov-handler{
+        overflow-x: auto;
+    }
+}
+
+
+@media all and (max-width: 900px){
+    .responsive_nav_menu{
+        font-size: 13pt !important;
+        padding: 8px 10px 8px 10px;
+        margin-bottom: 16px;
+    }
+    .nav-wrapper{
+        width: 96%;
+    }
+
+    .nav-item{
+        margin-right: 12px;
+    }
+
+    .dropdown-menu .dropdown-item{
+        padding: 15px !important;
+    }
+
+    .table-card-title{
+        width: 60%;
+    }
+    
+    .search-div{
+        width: 40%;
+    }
+
+}
+
+@media all and (max-width: 800px){
+    .dboard-con{
+        width: 86%;
+    }
+    .table-type-2 td, th{
+        font-size: 10.2pt !important;
+    }
+
+    .table-card-title{
+        width: 50%;
+    }
+    
+    .search-div{
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 600px){
+    .sec1{
+        margin-bottom: 30px;
+    }
+    .dashboard-card{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .table-card-title{
+        width: 100%;
+        margin: 1px 0px 20px 0px;
+        font-size: 12pt;
+    }
+    
+    .search-div{
+        width: 100%;
+    }
+
+    .src-input-div{
+        width: 74% !important;
+    }
+    
+    .src-btn-div{
+        width: 24% !important;
+    }
+    
+    .profile-icon img{
+        height: 115px;
+        width: 115px;
+        border: 4px solid rgba(16, 181, 202, 0.4);
+    }
+
+    .p-edit-btn{
+        right: 4%;
+    }
+}
+
+@media all and (max-width: 300px){
+
+    .nav-link{
+        font-size: 12pt !important;
+    }
+
+    .dropdown-menu .dropdown-item{
+        font-size: 10pt !important;
+    }
+
+}
+

@@ -1,0 +1,358 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(16, 181, 202, 1.0);
+}
+
+.btn{
+    border-bottom: 4px solid rgba(0, 0, 0, 0.15) !important;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn:hover{
+    border-bottom: 4px solid transparent !important;
+}
+
+/* ========================== Login system CSS ========================= */
+
+.wrapper{
+    width: 40%;
+    padding: 0;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-holder{
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.card{
+    border-radius: 0 !important;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2)!important;
+}
+
+.card-header{
+    padding: 25px !important;
+}
+
+.nav-tabs{
+    border: none !important;
+}
+
+.nav-link{
+    border-radius: 0 !important;
+    color: rgb(11, 144, 161) !important;
+}
+
+.card-body{
+    margin-top: 20px;
+    padding: 30px;
+}
+
+h2{
+    color: rgba(84,110,122 ,1);
+    margin: 0;
+    padding: 0px 5px;
+    font-size: 20pt;
+}
+
+.input-field-margin-setter{
+    margin-bottom: 25px;
+}
+
+.form-group{
+    position: relative;
+    padding: 2px;
+}
+
+.form-control{
+    padding-left: 45px !important;
+}
+
+.form-control:focus {
+    border-color: rgba(0, 188, 212, 0.8);
+    box-shadow: 0 0 2px 3px rgba(0, 188, 212, 0.2);
+    outline: none !important;
+}
+
+.fa-mobile-alt{
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    color: rgba(84,110,122 ,1);
+}
+
+.fa-key{
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    color: rgba(84,110,122 ,1);
+}
+
+.fa-users-cog{
+    position: absolute;
+    top: 26%;
+    left: 3%;
+    color: rgba(84,110,122 ,1);
+}
+
+.login-btn{
+    font-size: 13pt;
+    margin-top: 6px;
+}
+
+.emptyAlert{
+    position: absolute;
+    width: 100% !important;
+    top: 0;
+    border-radius: 0 !important;
+    animation-duration: 0.7s;
+}
+
+.emptyAlert p{
+    text-align: center;
+    padding: 4px;
+    font-size: 11pt  !important;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ----------------------------- Media Query ----------------------------- */
+
+@media all and (max-width: 1600px){
+
+    .wrapper{
+        width: 45%;
+    }
+
+}
+
+@media all and (max-width: 1400px){
+
+    .wrapper{
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 1380px){
+
+    .wrapper{
+        width: 52%;
+        margin-top: 70px;
+    }
+
+}
+
+@media all and (max-width: 1340px){
+
+    .wrapper{
+        width: 54%;
+    }
+
+}
+
+@media all and (max-width: 1300px){
+
+    .wrapper{
+        width: 55%;
+        margin-top: 68px;
+    }
+
+}
+
+@media all and (max-width: 1200px){
+
+    .wrapper{
+        width: 58%;
+        margin-top: 58px;
+    }
+
+}
+
+@media all and (max-width: 1100px){
+    .emptyAlert{
+        position: static;
+    }
+    .wrapper{
+        width: 62%;
+        margin-top: 48px;
+    }
+
+}
+
+@media all and (max-width: 1080px){
+
+    .wrapper{
+        width: 65%;
+    }
+
+}
+
+@media all and (max-width: 1000px){
+
+    .wrapper{
+        width: 68%;
+    }
+
+}
+
+@media all and (max-width: 940px){
+
+    .wrapper{
+        width: 75%;
+        margin-top: 40px;
+    }
+
+}
+
+@media all and (max-width: 880px){
+
+    .wrapper{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+}
+
+@media all and (max-width: 800px){
+
+    .wrapper{
+        width: 85%;
+        margin-top: 25px;
+    }
+
+}
+
+@media all and (max-width: 750px){
+
+    .wrapper{
+        width: 90%;
+    }
+
+}
+
+@media all and (max-width: 680px){
+
+    .wrapper{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .card-holder{
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 500px){
+    .nav-item{
+        width: 100% !important;
+    }
+
+    h2{
+        font-size: 16pt;
+    }
+
+    .fa-mobile-alt{
+        left: 4%;
+    }
+    
+    .fa-key{
+        left: 4%;
+    }
+
+    .fa-users-cog{
+        left: 4%;
+    }
+}
+
+@media all and (max-width: 480px){
+
+    h2{
+        font-size: 15pt;
+    }
+
+    .fa-mobile-alt{
+        left: 5%;
+    }
+    
+    .fa-key{
+        left: 5%;
+    }
+
+    .fa-users-cog{
+        left: 5%;
+    }
+}
+
+@media all and (max-width: 420px){
+
+    .fa-mobile-alt{
+        left: 6%;
+    }
+    
+    .fa-key{
+        left: 6%;
+    }
+
+    .fa-users-cog{
+        left: 6%;
+    }
+}
+
+@media all and (max-width: 340px){
+    .form-control{
+        font-size: 10.5pt !important;
+    }
+
+    .fa-mobile-alt{
+        left: 7%;
+    }
+
+    .fa-key{
+        left: 7%;
+    }
+
+    .fa-users-cog{
+        left: 7%;
+    }
+}
+
+@media all and (max-width: 300px){
+
+    .fa-mobile-alt{
+        left: 8%;
+    }
+
+    .fa-key{
+        left: 8%;
+    }
+
+    .fa-users-cog{
+        left: 8%;
+    }
+}
+
+@media all and (max-width: 280px){
+
+    h2{
+        font-size: 14pt;
+    }
+
+    .fa-mobile-alt{
+        left: 10%;
+    }
+
+    .fa-key{
+        left: 10%;
+    }
+
+    .fa-users-cog{
+        left: 10%;
+    }
+}
